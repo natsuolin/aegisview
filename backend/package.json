@@ -1,0 +1,24 @@
+{
+  "name": "aegisview-backend",
+  "version": "1.0.0",
+  "description": "Automated EASM & Threat Intelligence Core with Native Tor/Proxychains Anonymization",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "cybersecurity",
+    "nmap",
+    "tor",
+    "proxychains",
+    "easm",
+    "secops"
+  ],
+  "author": "Pedro",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "shlex": "^2.1.2"
+  }
+}
